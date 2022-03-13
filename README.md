@@ -1,1 +1,1 @@
-# C_M_S
+# College Management System
