@@ -36,5 +36,29 @@
 
     </section>
     
+        <section class="course">
+        <h1>Courses We Offer</hl> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+        <div class="row"></div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi quo corporis ex saepe, non molestias possimus laborum doloribus magnam quod hic tempore quibusdam delectus excepturi perspiciatis quam itaque aut?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi quo corporis ex saepe, non molestias possimus laborum doloribus magnam quod hic tempore quibusdam delectus excepturi perspiciatis quam itaque aut?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi quo corporis ex saepe, non molestias possimus laborum doloribus magnam quod hic tempore quibusdam delectus excepturi perspiciatis quam itaque aut?
+                </p>
+            </div>
+        </div>
+    </section>
     </body>
 </html>
