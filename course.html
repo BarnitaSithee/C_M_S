@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>College Website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SUBJECT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Subjects</h1>
+    </section>
+
+    <!-- ---------Courses--------- -->
+   <section class="course">
+        <h1>Subjects We Offer</hl> 
+        <p>We offer all there(Science, Commerce, Arts) subject in this prestigious college.</p> 
+        <div class="row">
+            <div class="course-col">
+                <h3>Science</h3>
+                <p>
+                    Our Science department have the best teachers in Bangladesh. We have very qualified teachers who are have vast knowledge about their subjects. Our aim is to give the best to our students. 
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Commerce</h3>
+                <p>
+                   Our Commerce department is as strong as Science and we can compete with any college. Our students are one of the best students the country has to offer and the faculty members are very qualified.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Arts</h3>
+                <p>
+                    Although in our country 'Arts' as a subject is laging behind but in our college we have qualified teachers to help our students. We aim to have a bright scholars from here.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ------facilities------- -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>A college is not a place just to come study and leave. We provide an environment in where our students can have a healthy mind to grow at its full potential.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library2.jpg">
+                <h3>World Class Library</h3>
+                <p>We have a library full of different types of books on every subject there is to offer.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/field.jpg">
+                <h3>Largest Play Ground</h3>
+                <p>Notre Dame College is also famous for its sports activities. We have a playground where our students play to refresh their mind and body.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.jpg">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Tasty and healhy food is must to grow. We fulfill this catagory with high colors.</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p> From 1949 our college has started its journey. And in this long run we had so many meritorious students who became top personals in verious sectors in our country. Those students who went abroad had done some excelent works and made us proud. We aim to being the best and our students have continued to do so. We hope the same will continue in the future and NDC will bring more meritorious students up in the light of knowledge.
+    <br>Notre Dame College, undoubtedly one of the best college in Bangladesh. Our motto is not just to get good grades in board exams; on the contarary we focus on how we can make our students best of the best so that they can take our country forward.
+</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart-o"></i> by Dhrubo-Barnita-Sabina-Alo</p>
+
+</section>
+<!----javascript start for menu-->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>
